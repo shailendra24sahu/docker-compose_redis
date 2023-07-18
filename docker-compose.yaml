@@ -4,6 +4,6 @@ services:
     image: web-app
     build: .
     ports:
-      -"8000:5000"
+      - "8000:5000"
   redis:
     image: redis
