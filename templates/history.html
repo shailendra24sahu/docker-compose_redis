@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculation History</title>
+</head>
+<body>
+    <h1>Calculation History</h1>
+    {% if result %}
+        <p>Previous Result: {{ result }}</p>
+    {% else %}
+        <p>No previous calculations</p>
+    {% endif %}
+    <a href="/">Back to Calculator</a>
+</body>
+</html>
